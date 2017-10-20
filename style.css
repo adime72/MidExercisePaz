@@ -10,7 +10,7 @@ body {
   background: linear-gradient( gray, #B1AAAA);
   margin: 0;
   padding:20px 0 15px;
-  position: relative;
+  /*position: relative;*/
 
 }
 .logo{
@@ -35,7 +35,7 @@ right: 320px;
 display: inline;
   font: bold 15px arial;
   border: 1px border-style color;
-  }
+}
   
   .menu > ul > li > a {
     text-decoration: none;
@@ -48,7 +48,7 @@ display: inline;
     position: relative;
   }
 
-  .dropdown-menu:hover {
+  .dropdown-menu a:hover {
     display: block;
     color: blue;
     text-decoration: underline;
@@ -67,19 +67,19 @@ display: inline;
     list-style: none;
     padding: 5px;
     margin: 10;
-
-   
+    
   }
   .dropdown-content > a {
     text-decoration: none;
     color: white;
     display: block;
     padding: 10px;
-    font: bold 12px;
+    font: bold 12px;   
   }
+  /*
   .dropdown-menu:hover .dropdown-content {
     display: block;
-  }
+  }*/
 .clearfix::after {
   content: "";
   display: table;
@@ -105,8 +105,9 @@ display: inline;
     font-size: 12px;
     height: 100px;
     width: 200px;
-    padding: 5px;
-    bottom: 0px;
+    padding: 5px 10px;
+    bottom: 80px;
+    text-align: right;
 }
 .second-row{
     width: 900px;
