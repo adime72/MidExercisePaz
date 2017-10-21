@@ -6,13 +6,36 @@ body {
   font-family: Arial;
 }
 .menu{
-
   background: linear-gradient( gray, #B1AAAA);
   margin: 0;
   padding:20px 0 15px;
   /*position: relative;*/
-
 }
+  .horizontal{
+    background-color: grey;
+  }
+  .horizontal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .horizontal ul li {
+    display: inline;
+  }
+  .horizontal ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 3px 15px 3px 15px;
+    font-size: 14px;
+    font-weight: bold;
+  } 
+    .horizontal ul li a:hover {
+   background-color: grey;
+   color: blue;
+   text-decoration: underline;
+  }
+
 .logo{
   position: absolute;
   float: right;
@@ -30,7 +53,7 @@ right: 320px;
   margin: 0;
   padding: 0;
 }
-*/
+
 .menu > ul > li {
 display: inline;
   font: bold 15px arial;
@@ -43,32 +66,31 @@ display: inline;
     color:white;
     display:inline;
   }
-  
-  .dropdown-menu {
-    position: relative;
-  }
+*/  
 
+/*
   .dropdown-menu a:hover {
     display: block;
     color: blue;
     text-decoration: underline;
   }
+  */
+  /*
   .dropdown-content {
     display: none;
     background-color: grey;
     font: 12px arial;
     width: 150px;
     position: absolute;
-    right: 10px;
-  
+    right: 10px; 
   }
   
   .menu > ul {
     list-style: none;
     padding: 5px;
     margin: 10;
-    
   }
+
   .dropdown-content > a {
     text-decoration: none;
     color: white;
@@ -76,29 +98,65 @@ display: inline;
     padding: 10px;
     font: bold 12px;   
   }
-  /*
+  
   .dropdown-menu:hover .dropdown-content {
     display: block;
   }*/
+
+  .horizontal ul li a:hover {
+    background-color: grey;
+    color: blue;
+    text-decoration: underline;
+   }
+   .dropdown-menu {
+     position: relative;
+   } 
+   .dropdown-menu:hover .dropdown-content {
+     display: block;
+   }
+   .dropdown-content {
+     display: none;
+     background-color: grey;
+     position: absolute;
+     
+     right: 0;
+     margin-top: 0;
+     color: blue;
+   }
+   .dropdown-content > a {
+     text-decoration: none;
+     color: black;
+     display: block;
+     padding: 10px;
+   }
+
+.clearfix{
+  width: 900px;
+  margin: 10px auto;
+}
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 } 
 .first-row{
-  width: 900px;
-  margin: 0 auto;
+ /* width: 900px;
+  margin: 0 auto;*/
+  position: relative;
+  width: 33.33334%;
 }
 
 .column {
-  float: right;
-  padding: 23px 3px;
+  float: left;
+ /* padding: 23px 3px;*/
+ padding: 0;
 }
 
 .first-row img {
   width: 100%; 
   border-bottom-right-radius: 20px;
   position: relative;
+  z-index: -1;
 }
 .text-area h4{
     position: absolute;
