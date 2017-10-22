@@ -1,0 +1,165 @@
+
+body {
+  direction: rtl;
+  text-align: center; 
+
+  font-family: Arial;
+}
+.menu{
+
+  background: linear-gradient( gray, #B1AAAA);
+  margin: 0;
+  padding:20px 0 15px;
+  /*position: relative;*/
+
+}
+.logo{
+  position: absolute;
+  float: right;
+  right: 180px;
+}
+.home_img{
+  float: right;
+position: relative;
+top:50px;
+right: 320px;
+  
+}
+/*.search-bar {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+*/
+.menu > ul > li {
+display: inline;
+  font: bold 15px arial;
+  border: 1px border-style color;
+}
+  
+  .menu > ul > li > a {
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+    display:inline;
+  }
+  
+  .dropdown-menu {
+    position: relative;
+  }
+
+  .dropdown-menu a:hover {
+    display: block;
+    color: blue;
+    text-decoration: underline;
+  }
+  .dropdown-content {
+    display: none;
+    background-color: grey;
+    font: 12px arial;
+    width: 150px;
+    position: absolute;
+    right: 10px;
+  
+  }
+  
+  .menu > ul {
+    list-style: none;
+    padding: 5px;
+    margin: 10;
+    
+  }
+  .dropdown-content > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    font: bold 12px;   
+  }
+  /*
+  .dropdown-menu:hover .dropdown-content {
+    display: block;
+  }*/
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+.first-row{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.column {
+  float: right;
+  padding: 23px 3px;
+}
+.text-bold{
+  font-style: bold; 
+}
+.first-row img {
+  width: 100%; 
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+.text-area h4{
+    position: absolute;
+    font-size: 12px;
+    height: 100px;
+    width: 200px;
+    padding: 5px 10px;
+    bottom: 100px;
+    text-align: right;
+}
+.text-area {
+  background-color: gray;
+}
+}
+    .read-more{
+      position: absolute;
+      font-size: 12px;
+      height: 50px;
+      width: 200px;
+      padding: 5px 10px;
+      bottom: 100px;
+      text-align: right;
+      background-color: rgba (10 ,10 ,10, 0.3);
+}
+.second-row{
+    width: 900px;
+    margin: 0 auto;
+  }
+  .second-row img {
+    width: 100%; 
+    border-top-right-radius: 20px;
+  }
+.column h6{
+  width: 280px;
+  top: right;
+  color: white;
+
+}  
+.ftr-manu ul li{
+  position: fix;
+   right: 0;
+    left: 0;
+    bottom: 0;  
+  background: linear-gradient( gray, #B1AAAA);
+  list-style: none;
+  padding: 2px;
+  margin: 0
+}
+
+.ftr-manu ul li a{
+  text-decoration: none;
+  color: white;
+  border-left: 0.5px solid;
+  padding: 1
+  1px 5;
+}
+.ftr-manu ul li a:last-child{
+  color: red;
+}
+.footer-menu{
+    position: fixed;
+}
