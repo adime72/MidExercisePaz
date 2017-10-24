@@ -297,7 +297,7 @@ display: inline;
   background-repeat: no-repeat;
 }
 .more-info{
-  position: relative;
+  position: absolute;
   direction:ltr;
   text-align: left;
   top: 140px;
