@@ -159,7 +159,7 @@ display: inline;
   display: table;
   clear: both;
 } 
-.three_img"{
+.first-row{
  /* width: 900px;
   margin: 0 auto;*/
   position: relative;
@@ -194,7 +194,7 @@ display: inline;
  padding: 0;
 }
 
-.three_img" img {
+.first-row img {
   width: 100%; 
   border-bottom-right-radius: 20px;
   position: relative;
@@ -354,154 +354,6 @@ img.cent-pic{
   color: white;
 
 }  
-/* temp*/
-.column {
-  float: left;
-  padding: 5px;
-}
-.row{
-  width: 900px;
-  margin: 20px auto;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.three_img{
-  position: relative;
-  width: 33.33334%;
-}
-.three_img_s {
-  border-bottom-right-radius: 20px;
-}
-.text-place{
-  position: absolute;
-  bottom: 16px;
-  right: 16px;
-  width: 80%;
-  border-bottom-right-radius: 20px;
-  background-color: rgba(144, 144, 144, 0.9);
-  font-size: 13px;
-  color: white;
-}
-.text-place h4 {
-  margin: 0;
-  padding: 5px;
-}
-.text-place p {
-  margin: 5px 0 5px 0;
-  padding: 0 10px 0 10px;
-}
-
-.read-more a{
-  float: left;
-  color:white;
-  background: url(images/read_more_white.png); 
-  background-repeat: no-repeat;
-}
-.read-more a:hover{
-  color: blue;
-  background-image: url(images/read_more_blue.png);
-  background-repeat: no-repeat;
-}
-
-.with-pic{
-  background: url(images/small_cube_bg.png);
-  background-repeat: no-repeat;
-  z-index: 100;
-  height: 226px;
-}
-.with-pic h3{
-  margin-top: 6px;
-  margin-right: 30px;
-  font-size: 14px;
-}
-
-.with-pic-img{
-  position: absolute;
-  left: 5px;
-}
-
-.read-more1{
-  position: relative;
-  direction:ltr;
-  text-align: left;
-  top: 140px;
-  left:20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-}
-.read-more1 a{
-    color:grey;
-    background: url(images/read_more_yellow.png); 
-    background-repeat: no-repeat;
-}
-.read-more1 a:hover{
-    color: blue;
-    background-image: url(images/read_more_blue.png);
-    background-repeat: no-repeat;
-  }
-  
-.cent-pic{
-  position: absolute;
-  top:55px;
-}
-img.cent-pic{
-  left: 24px;
-}
-.link-img {
-  position: absolute;
-  color: black;
-}
-.position_relative{
-  position: relative;
-}
-.small-menu{
-  position: absolute;
-  list-style: none;
-  direction:ltr;
-  text-align: right;
-  right: 50px;
-  top:50px;
-}
-
-.small-menu li{
-padding-bottom: 7px;
-font-family: Arial, Helvetica, sans-serif;
-/*font-size: 13px;
-color:grey;*/
-}
-
-.small-menu a{
-font-size: 13px;
-color:grey;
-background: url(images/read_more_yellow.png); 
-background-repeat: no-repeat;
-}
-.small-menu a:hover{
-  color: blue;
-  background-image: url(images/read_more_blue.png);
-  background-repeat: no-repeat;
-}
-
-.change-pic{
-  position: absolute;
-  width: 250px;
-  height: 110px;
-  top:0;
-  left:20px;
-  padding: 0;
-}
-.change-pic h3{
-padding-top: 7px;
-}
-
-.change-pic img{
-padding-top: 20px;
-}
-}
-/*end temp */
 .ftr-manu ul li{
   position: fix;
    right: 0;
